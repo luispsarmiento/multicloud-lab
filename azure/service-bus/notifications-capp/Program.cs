@@ -2,7 +2,7 @@
 using Azure.Identity;
 using System.Timers;
 
-string svcbusConnectionString = "Endpoint=sb://lps-poc-notifications.servicebus.windows.net/;SharedAccessKeyName=RootManageSharedAccessKey;SharedAccessKey=ZMfxncStp5YZvaMxEtZn1AiJ0FueOTbpy+ASbOqpZjQ=";
+string svcbusConnectionString = "";
 string queueName = "sms";
 
 ServiceBusClient client = new(svcbusConnectionString);
