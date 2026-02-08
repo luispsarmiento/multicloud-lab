@@ -22,6 +22,13 @@ multicloud-lab/
 └── comparative/        # Comparative implementations of the same service
 ```
 
+## Coding Conventions
+
+### File Naming
+- **Markdown files**:
+  - Special files: `UPPERCASE.md` (README.md, LICENSE.md)
+  - Documentation: `lowercase-with-hyphens.md`
+
 ## 🤝 Contributions
 
 This is a personal learning repository, but suggestions and improvements are welcome.
